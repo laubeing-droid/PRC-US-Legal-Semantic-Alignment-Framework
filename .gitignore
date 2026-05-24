@@ -1,12 +1,26 @@
-﻿# OS files
+# OS
 .DS_Store
 Thumbs.db
+Desktop.ini
 
-# Editor files
+# Editor
 *.swp
 *.swo
 *~
+.vscode/
+.idea/
 
-# Temp files
-*.ps1
+# Temp
 *.tmp
+*.bak
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# Node
+node_modules/
