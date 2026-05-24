@@ -66,3 +66,8 @@
 ## 许可
 
 [MIT](LICENSE)
+
+
+---
+
+**Latest**: PRC-US Legal Semantic Alignment Framework v3.0
