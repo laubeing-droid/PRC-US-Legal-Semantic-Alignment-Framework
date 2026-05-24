@@ -1,6 +1,7 @@
-# 中国法优先法律语义对齐框架
+﻿# 中国法优先法律语义对齐框架
 
 > **PRC-First Legal Semantic Alignment Framework**
+> [English](README.en.md)
 > ——一种面向LLM的美国法概念约束与中国法语境适配体系
 
 ---
