@@ -1,11 +1,11 @@
 
-# 《中美法律制度功能映射体系与AI法律对齐框架》2026精简版
+# 中国法优先法律语义对齐框架
 
 ## 项目定位
 
-本文档为 [Claude for Legal CN](https://github.com/SH88-source/claude-for-legal-CN) 的**术语映射层与中国法价值适配层**——供 Codex Desktop 中 commercial-legal、litigation-legal、corporate-legal 等13个技能域调用的底层参考。
+本文档为 [Claude for Legal CN](https://github.com/SH88-source/claude-for-legal-CN) 的**法律语义对齐层**——供 Codex Desktop 中13个技能域调用的底层制度参考。不是词典，不是双向翻译。核心能力：美国法概念约束（blocking）+ 中国法语境适配（adaptation）+ 法域感知路由（jurisdiction routing）。
 
-> **中美法律制度功能映射体系（China-U.S. Legal Functional Mapping System）**
+> **PRC-First Legal Semantic Alignment Framework** —— 一种面向LLM的美国法概念约束与中国法语境适配体系
 
 核心功能：
 - 美国法概念在中国法中的**功能落地**——不是翻译，是制度功能映射
