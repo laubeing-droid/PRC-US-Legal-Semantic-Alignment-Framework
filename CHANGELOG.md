@@ -1,4 +1,9 @@
-﻿<!--
+﻿
+## v3.0.5 (2026-05-25)
+
+- install.ps1 安装脚本
+- 五仓 README 统一重写 + 生态引用对齐
+<!--
 version: 3.0.3
 module: root
 status: active
@@ -25,3 +30,4 @@ status: active
 - feat: 12 领域中美法律概念一对一映射
 - feat: 8 个护栏文件（22 阻断概念 + 元规则 + 香港桥梁 + 核心原则）
 - feat: 安装/更新/卸载/检测/验证脚本 (PS1 + Bash)
+
