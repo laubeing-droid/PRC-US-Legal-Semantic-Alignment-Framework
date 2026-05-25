@@ -1,4 +1,10 @@
-﻿# 中国法优先法律语义对齐框架
+﻿<!--
+version: 3.0.2
+module: alignment-framework
+status: active
+-->
+
+# 中国法优先法律语义对齐框架
 
 > **PRC-First Legal Semantic Alignment Framework**
 > [English](README.en.md)

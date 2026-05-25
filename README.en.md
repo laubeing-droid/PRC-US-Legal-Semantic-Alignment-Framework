@@ -1,4 +1,10 @@
-﻿# PRC-First Legal Semantic Alignment Framework
+﻿<!--
+version: 3.0.2
+module: alignment-framework
+status: active
+-->
+
+# PRC-First Legal Semantic Alignment Framework
 
 > **An LLM-Optimized System for Constraining US Legal Concepts Within Chinese-Law Reasoning Contexts**
 
