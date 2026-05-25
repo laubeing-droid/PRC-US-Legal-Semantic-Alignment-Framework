@@ -72,5 +72,7 @@ Apache License 2.0
 | [core-codices](https://github.com/laubeing-droid/codex-claude-legal-cn-core-codices) | 📚 法律数据库 — 162 部中国法律全文 JSON |
 | [codex-claude-legal-cn-main](https://github.com/laubeing-droid/codex-claude-legal-cn-main) | ⚖️ 法律技能集 — 150+ 子技能 |
 | [mcp-hub](https://github.com/laubeing-droid/codex-claude-legal-cn-mcp-hub) | 🔌 MCP 连接器中心 |
+| [judgment-predictor](https://github.com/laubeing-droid/codex-claude-legal-cn-judgment-predictor) | 🏛 裁判预测框架 — 以本框架对齐规则约束判决推理 |
+
 
 
