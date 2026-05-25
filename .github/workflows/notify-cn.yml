@@ -1,0 +1,17 @@
+﻿name: Notify CN on Update
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch to Claude-for-Legal-CN-to-Codex
+        run: |
+          curl -X POST https://api.github.com/repos/laubeing-droid/Claude-for-Legal-CN-to-Codex/dispatches \
+            -H "Authorization: token ${{ secrets.CROSS_REPO_PAT }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            -d '{"event_type": "align-framework-updated", "client_payload": {"sha": "${{ github.sha }}", "message": "${{ github.event.head_commit.message }}"}}'
