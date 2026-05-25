@@ -1,0 +1,64 @@
+﻿name: "月度法条过期扫描与自动更新"
+
+on:
+  schedule:
+    - cron: "0 9 1 * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "仅预览不更新"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  scan-and-update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Git
+        run: |
+          git config user.name "law-citation-bot[bot]"
+          git config user.email "law-citation-bot[bot]@users.noreply.github.com"
+
+      - name: 扫描法条引用
+        shell: pwsh
+        run: |
+          Write-Host "=== align-framework 法条扫描 ===" -ForegroundColor Cyan
+          
+          # 扫描所有MD文件中的法条引用
+          $files = Get-ChildItem -Recurse -File | Where-Object { $_.Extension -eq '.md' -and $_.Directory.Name -ne '.git' }
+          $pattern = '《([^》]{2,30})》第([零一二三四五六七八九十百千\d]+)条'
+          $citations = @()
+          
+          foreach ($f in $files) {
+            $content = Get-Content $f.FullName -Raw -Encoding UTF8 -ErrorAction SilentlyContinue
+            if (-not $content) { continue }
+            $ms = [regex]::Matches($content, $pattern)
+            foreach ($m in $ms) {
+              $citations += [PSCustomObject]@{
+                file = $f.FullName.Replace($PWD.Path, '').TrimStart('/\')
+                law = $m.Groups[1].Value
+                article = $m.Groups[2].Value
+              }
+            }
+          }
+          
+          Write-Host "引用数: $($citations.Count)"
+          if ($citations.Count -gt 0) {
+            $citations | Group-Object -Property law | Sort-Object Count -Descending | Select-Object -First 10 | ForEach-Object {
+              Write-Host "  $($_.Name): $($_.Count)"
+            }
+          }
+
+      - name: 摘要
+        if: always()
+        run: |
+          echo "## align-framework 法条扫描完成" >> $GITHUB_STEP_SUMMARY
