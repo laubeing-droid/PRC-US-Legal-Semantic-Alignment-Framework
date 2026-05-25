@@ -63,3 +63,13 @@ status: active
 ## 许可证
 
 Apache License 2.0
+---
+
+## 配套项目
+
+| 仓库 | 说明 |
+|------|------|
+| [core-codices](https://github.com/laubeing-droid/codex-claude-legal-cn-core-codices) | 📚 法律数据库 — 162 部中国法律全文 JSON |
+| [codex-claude-legal-cn-main](https://github.com/laubeing-droid/codex-claude-legal-cn-main) | ⚖️ 法律技能集 — 150+ 子技能 |
+| [mcp-hub](https://github.com/laubeing-droid/codex-claude-legal-cn-mcp-hub) | 🔌 MCP 连接器中心 |
+
