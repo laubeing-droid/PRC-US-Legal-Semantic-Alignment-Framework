@@ -232,7 +232,7 @@ The full framework document (PRC-US-Legal-Semantic-Alignment-Framework.md) is st
 This framework is a foundational layer for:
 
 - [legal-cn-main](https://github.com/laubeing-droid/legal-cn-main) — Codex Desktop legal skills (12 domains)
-- [Codex-Claude-legal-CN-mcp-connectors](https://github.com/laubeing-droid/Codex-Claude-legal-CN-mcp-connectors) — MCP connectors for PRC legal databases
+- [legal-cn-mcp-hub](https://github.com/laubeing-droid/legal-cn-mcp-hub) — MCP connectors for PRC legal databases
 - Upstream: [claude-for-legal-CN](https://github.com/SH88-source/claude-for-legal-CN) — Chinese law workflow for Claude
 
 ---
