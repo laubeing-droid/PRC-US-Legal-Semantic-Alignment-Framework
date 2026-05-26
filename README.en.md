@@ -1,4 +1,4 @@
-﻿<!--
+<!--
 version: 3.0.3
 module: alignment-framework
 status: active
@@ -231,7 +231,7 @@ The full framework document (PRC-US-Legal-Semantic-Alignment-Framework.md) is st
 
 This framework is a foundational layer for:
 
-- [Claude-for-Legal-CN-to-Codex](https://github.com/laubeing-droid/Claude-for-Legal-CN-to-Codex) — Codex Desktop legal skills (12 domains)
+- [legal-cn-main](https://github.com/laubeing-droid/legal-cn-main) — Codex Desktop legal skills (12 domains)
 - [Codex-Claude-legal-CN-mcp-connectors](https://github.com/laubeing-droid/Codex-Claude-legal-CN-mcp-connectors) — MCP connectors for PRC legal databases
 - Upstream: [claude-for-legal-CN](https://github.com/SH88-source/claude-for-legal-CN) — Chinese law workflow for Claude
 
@@ -244,7 +244,7 @@ This framework is designed for:
 - **AI/LLM engineers** building legal reasoning systems
 - **Comparative law scholars** refining cross-jurisdictional alignment
 
-See [CONTRIBUTING.md guidelines](https://github.com/laubeing-droid/Claude-for-Legal-CN-to-Codex) in the parent ecosystem.
+See [CONTRIBUTING.md guidelines](https://github.com/laubeing-droid/legal-cn-main) in the parent ecosystem.
 
 ---
 

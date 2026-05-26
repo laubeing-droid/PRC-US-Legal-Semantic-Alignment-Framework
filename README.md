@@ -53,10 +53,10 @@ cd PRC-US-Legal-Semantic-Alignment-Framework
 
 | 仓库 | 说明 |
 |------|------|
-| [core-codices](https://github.com/laubeing-droid/codex-claude-legal-cn-core-codices) | 法律数据库 — 162 部中国法律全文 JSON，本框架中国法概念基准 |
-| [codex-claude-legal-cn-main](https://github.com/laubeing-droid/codex-claude-legal-cn-main) | 法律技能集 — 150+ 子技能，本框架作为 System Prompt 注入 |
-| [mcp-hub](https://github.com/laubeing-droid/codex-claude-legal-cn-mcp-hub) | MCP 连接器中心 |
-| [judgment-predictor](https://github.com/laubeing-droid/codex-claude-legal-cn-judgment-predictor) | 裁判预测框架 — 以本框架对齐规则约束判决推理 |
+| [core-codices](https://github.com/laubeing-droid/legal-cn-core-codices) | 法律数据库 — 162 部中国法律全文 JSON，本框架中国法概念基准 |
+| [legal-cn-main](https://github.com/laubeing-droid/legal-cn-main) | 法律技能集 — 150+ 子技能，本框架作为 System Prompt 注入 |
+| [mcp-hub](https://github.com/laubeing-droid/legal-cn-mcp-hub) | MCP 连接器中心 |
+| [judgment-predictor](https://github.com/laubeing-droid/legal-cn-judgment-predictor) | 裁判预测框架 — 以本框架对齐规则约束判决推理 |
 
 ## 许可证
 

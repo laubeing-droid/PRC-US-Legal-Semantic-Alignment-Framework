@@ -1,9 +1,9 @@
-﻿<#
+<#
 .SYNOPSIS
   PRC-US-Legal-Semantic-Alignment-Framework 安装脚本
 .DESCRIPTION
   中美法律语义对齐框架。提供概念映射、阻断列表和中式推理护栏。
-  本仓库通常作为 codex-claude-legal-cn-main 的必需依赖被自动安装。
+  本仓库通常作为 legal-cn-main 的必需依赖被自动安装。
 #>
 $ErrorActionPreference = 'Stop'
 $RepoRoot = Split-Path -Parent $MyInvocation.MyCommand.Path

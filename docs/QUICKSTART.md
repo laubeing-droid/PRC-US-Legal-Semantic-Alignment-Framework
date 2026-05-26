@@ -1,4 +1,4 @@
-﻿<!--
+<!--
 version: 3.0.3
 module: docs
 status: active
@@ -36,6 +36,6 @@ bash detect.sh /path/to/skills
 
 ## 联动
 
-- 主仓库 [Claude-for-Legal-CN-to-Codex](https://github.com/laubeing-droid/Claude-for-Legal-CN-to-Codex) 加载本框架作为护栏层
-- [MCP Hub](https://github.com/laubeing-droid/Codex-Claude-legal-cn-mcp-hub) 提供法条核验能力
-- [JDP](https://github.com/laubeing-droid/Codex-Legal-CN-Judgment-Predictor) 裁判预测中引用本框架过滤概念
+- 主仓库 [legal-cn-main](https://github.com/laubeing-droid/legal-cn-main) 加载本框架作为护栏层
+- [MCP Hub](https://github.com/laubeing-droid/legal-cn-mcp-hub) 提供法条核验能力
+- [JDP](https://github.com/laubeing-droid/legal-cn-judgment-predictor) 裁判预测中引用本框架过滤概念
